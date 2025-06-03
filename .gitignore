@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# SQLite file
+*.db
+
+# Document files
+docs/*.docx
+docs/*.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+
+# pip cache
+*.egg
+*.egg-info
+dist/
+build/
+
+# Environment variables or secrets (e.g., dotenv files)
+.env
+.env.*
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+.env-carro-chatbot/ 
+
+# Dev notebook
+notebook/
+*.ipynb_dev
+
+#backup files
+*.bak
+backup*/
+
+# Gradio files and flags
+.gradio/
+*.csv
+
+# FAISS index files
+faiss_index/
+*.faiss
+*.pkl
+*.bin
+*.npy
+
+# Pytest cache
+.pytest_cache/
