@@ -8,10 +8,6 @@ __pycache__/
 # SQLite file
 *.db
 
-# Document files
-docs/*.docx
-docs/*.pdf
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 *.ipynb
@@ -66,6 +62,3 @@ faiss_index/
 # Pytest cache
 .pytest_cache/
 
-
-# Git keep files
-!docs/.gitkeep

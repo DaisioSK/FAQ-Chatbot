@@ -1,7 +1,7 @@
 
-# FAQ Chatbot
+# Carro FAQ Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot initially built for Carro, the online used car dealership, to enhance customer experience.  
+A Retrieval-Augmented Generation (RAG) chatbot built for Carro, the online used car dealership, to enhance customer experience.  
 The chatbot answers user questions based on an official FAQ document and, for real-time queries, integrates internet search APIs to provide up-to-date information.
 
 ---
@@ -15,7 +15,7 @@ Users can interact through a web-based Gradio interface. The bot provides accura
 
 ## ✨ Key Features & Highlights
 
-- **FAQ-First QA**: Uses provided FAQ PDF as the primary knowledge source for in-scope queries.
+- **FAQ-First QA**: Uses Carro's provided FAQ PDF as the primary knowledge source for in-scope queries.
 - **Internet Search Integration**: For questions outside the FAQ (e.g., real-time pricing), calls Google Custom Search API and displays the latest online results.
 - **Retrieval-Augmented Generation (RAG)**: Hybrid approach enhances both answer accuracy and coverage.
 - **Streaming LLM Responses**: Powered by Ollama (Llama3) or OpenAI (GPT-4o-mini); easily switchable.
@@ -107,9 +107,9 @@ You can just edit the  `.env-example` provided and rename it to `.env` at your o
 
 ### 4. Build the Vector Store
 
-This repository contains only original code and documentation for educational and evaluation purposes.
-If you wish to evaluate the chatbot in a real environment, please obtain the relevant data files directly from Carro or contact the author for further details.
-You can upload your own FAQ docuemnts in `docs/` folder (.pdf), and RAG will automatically create index file of the FAQ documents during the first run. 
+RAG will automatically create index file of the FAQ documents during the first run. 
+The full Carro Malaysia Terms of Use can be viewed at: 
+https://carro.co/my/en/terms
 
 ---
 
