@@ -10,6 +10,7 @@ The chatbot answers user questions based on an official FAQ document and, for re
 
 This chatbot combines document-based question answering and real-time internet search, powered by modern LLMs (e.g., Ollama, OpenAI) and the LangChain framework.  
 Users can interact through a web-based Gradio interface. The bot provides accurate, clear, and polite responses, referencing the source of answers when possible.
+See carro-faq-chatbot-overview.pptx for a high-level project overview and workflow.
 
 ---
 
