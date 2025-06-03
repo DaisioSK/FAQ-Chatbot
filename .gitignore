@@ -65,3 +65,7 @@ faiss_index/
 
 # Pytest cache
 .pytest_cache/
+
+
+# Git keep files
+!docs/.gitkeep
